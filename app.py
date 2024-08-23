@@ -28,6 +28,7 @@ if audio_file and openai_api_key:
             transcription = client.audio.transcriptions.create(
                 model="whisper-1",
                 file=audio_file,
+                language="zh",
                 response_format="srt",
             )
             # Provide a download button for the SRT file
