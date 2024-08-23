@@ -29,6 +29,7 @@ if audio_file and openai_api_key:
                 model="whisper-1",
                 file=audio_file,
                 language="zh",
+                prompt="以下是简体普通话与英语的句子",
                 response_format="srt",
             )
             # Provide a download button for the SRT file
