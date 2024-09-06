@@ -6,8 +6,8 @@ Whisper WebUI is a user-friendly web application designed to transcribe audio fi
 
 ## Demo
 
-- ![Check out the demo page here!](#)
-- [Whisper WebUI](#)
+- ![Check out the demo page here!](https://github.com/Education-Victory/whisper-webui/blob/main/demo-page.png?raw=true)
+- [Whisper WebUI](https://whisper-webui.streamlit.app/)
 
 
 ## Features
@@ -21,7 +21,7 @@ Whisper WebUI is a user-friendly web application designed to transcribe audio fi
 
 ### Run Online
 
-1. Visit the [Whisper WebUI](#) page.
+1. Visit the [Whisper WebUI](https://whisper-webui.streamlit.app/) page.
 2. Provide your OpenAI API Key.
 3. Upload an audio file and specify the input language, optional prompt, and desired output format.
 4. Click the **"Transcribe Audio"** button to initiate the transcription process.
@@ -33,16 +33,16 @@ To run Whisper WebUI on your local machine, follow these steps:
 
 1. Clone the Repository:
 
-   git clone https://github.com/yourusername/whisper-transcription.git
-   cd whisper-transcription
+   `git clone git@github.com:Education-Victory/whisper-webui.git`
+   `cd whisper-webui`
 2. Install Required Packages:
 
-    pip install -r requirements.txt
-3. Set Up Your OpenAI API Key:
-    Ensure you have your OpenAI API key ready. You may need to set it as an environment variable or modify the configuration file.
+    `pip install -r requirements.txt`
+3. Get OpenAI API Key:
+    Ensure you have your OpenAI API key ready.
 4. Run the Streamlit Application:
-    streamlit run app.py
 
+    `streamlit run app.py`
 5. Transcribe Audio:
     1. Upload your audio file and specify the input language, optional prompt, and desired output format.
     2. Click the "Transcribe Audio" button to start the transcription process.
