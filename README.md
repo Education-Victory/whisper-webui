@@ -2,7 +2,7 @@
 
 ## Overview
 
-Whisper WebUI is a user-friendly web application designed to transcribe audio files using the OpenAI Whisper API. This application enhances accessibility and usability by allowing users to upload audio files and receive transcriptions in various formats, catering to a wide range of applications.
+Whisper WebUI is a user-friendly web application designed to transcribe and translate audio files using the OpenAI Whisper API. This application enhances accessibility and usability by allowing users to upload audio files and receive transcriptions or translations in various formats, catering to a wide range of applications.
 
 ## Demo
 
@@ -23,9 +23,9 @@ Whisper WebUI is a user-friendly web application designed to transcribe audio fi
 
 1. Visit the [Whisper WebUI](https://whisper-webui.streamlit.app/) page.
 2. Provide your OpenAI API Key.
-3. Upload an audio file and specify the input language, optional prompt, and desired output format.
-4. Click the **"Transcribe Audio"** button to initiate the transcription process.
-5. View or download the transcription results.
+3. Choose the **"Create transcription"** or **"Create translation"** button based on your usecase.
+3. Upload an audio file and specify the  optional prompt, and desired output format.
+5. View or download the results.
 
 ### Run Locally
 
@@ -43,10 +43,6 @@ To run Whisper WebUI on your local machine, follow these steps:
 4. Run the Streamlit Application:
 
     `streamlit run app.py`
-5. Transcribe Audio:
-    1. Upload your audio file and specify the input language, optional prompt, and desired output format.
-    2. Click the "Transcribe Audio" button to start the transcription process.
-    3. View or download the transcription results.
 
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements or encounter any issues, please feel free to submit a pull request or open an issue.
