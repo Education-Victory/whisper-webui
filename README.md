@@ -6,8 +6,9 @@ Whisper WebUI is a user-friendly web application designed to transcribe and tran
 
 ## Demo
 
-- ![Check out the demo page here!](https://github.com/Education-Victory/whisper-webui/blob/main/demo-page.png?raw=true)
-- [Whisper WebUI](https://whisper-webui.streamlit.app/)
+- Transcription: ![transcription](https://github.com/Education-Victory/whisper-webui/blob/main/transcription.gif?raw=true)
+- Translation: ![translation](https://github.com/Education-Victory/whisper-webui/blob/main/translate.gif?raw=true)
+- Online Demo: [Whisper WebUI](https://whisper-webui.streamlit.app/)
 
 
 ## Features
